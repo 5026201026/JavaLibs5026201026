@@ -1,0 +1,29 @@
+# This is a basic workflow to help you get started with Actions
+
+package JavaLibs5026201026;
+import javax.swing.JOptionPane;
+
+class JavaLibs5026201026 {
+
+    public static void main(String[] args) {
+        String x;
+        String a;
+        String b;
+        String c;
+        int y;
+
+
+
+        x = JOptionPane.showInputDialog("Welcome to Khofifah's story, Hallo! what is your name?");
+        a = JOptionPane.showInputDialog("What is your favorite country?");
+        y = Integer.parseInt(JOptionPane.showInputDialog("Your age?"));
+        b = JOptionPane.showInputDialog("Word a describe an exited momment");
+        c = JOptionPane.showInputDialog("synonim word incredible");
+
+        System.out.println("Hi  "+x + " . This is story when i met my idol at the concert in  "+a);
+        System.out.println("My idol still young, about  "+y +" year old");
+        System.out.println("He/she has a "+b +" voice");
+        System.out.println("This is my "+c +" experience");
+
+    }
+}
